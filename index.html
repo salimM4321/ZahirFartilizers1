@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a navbar</title>
+    <style>
+ [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+            
+        body{
+            /* background-image: url('./Farmerimg.jpg'); */
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: greenyellow;
+        }
+
+        
+
+        h3{
+            text-align: center;
+            color: green;
+            background-color: rgb(0, 195, 255);
+            width: 75%;
+            padding: 0.5%;
+            margin-left: 13%;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20%;
+            
+        }
+        .container{
+          color: rgb(179, 31, 31);
+          background-color:black;
+           border-radius: 13px;
+    
+        }
+        .container li{
+            list-style:none;
+             margin: 13px 20px;
+             margin-bottom:100px; 
+             padding: 1%; 
+            color: white; 
+            float: left;  
+            background-color: black;
+            border-radius: 17px; 
+        }
+        .container li:hover{
+            background-color: red;
+        }
+        .container a{
+            color: aliceblue;
+        }
+        #search{
+            margin-left: 95%;
+        }
+        .first{
+            /* border: 2px solid blue; */
+            width: 30%;
+            text-align: center;
+            position:relative;
+            margin-left: 50%;
+            margin-top: 15%;
+            background-color: darkseagreen;
+        }
+        h2{
+            color: #800000;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        h1{
+            text-align: center;
+            /* border: 2px solid blueviolet;
+            border-radius: 4px; */
+            background-color: aliceblue;
+            border: 2p;
+            border-radius: 20px;
+        }
+        .container li a{
+            text-decoration: none;
+        }
+        /* .nevb{
+            width: 1330px;
+            height: 50px;
+            background-color: black;
+            border-radius: 20px; */
+        }
+        li#search{
+            padding: 2px;
+
+            
+        }
+        .btn{
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>👨‍🌾  Zahir Fartilizers  👨‍🌾</h1>
+        <nav class="container">
+            <ul>
+                <li id="bc"><a href="./Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./Facilities.html">Facilities</a></li>
+                <li><a href="./Contact-Us.html">Contact-Us</a></li>
+                <li style="margin-left: 25%;"><input type="text" placeholder="Search our website.."></li>
+                <!-- <h2>Address :- Idgah Complex, Chatrapti Shivaji Maharaj Chowk Nilanga-413522</h2> -->
+            </ul>
+        </nav>
+    <form action="action.php" class="first">
+        <h3>Login to get 20% off</h3>
+        <label>Farmer-Name:</label><br><input type="text" name="farmer" placeholder="Enter Your Name"><br>
+        <label>Sarve-NO:</label><br><input type="number" name="farmer" placeholder="Enter Yoour Sarve No"><br>
+        <label>Password</label><br><input type="password" name="farmer"placeholder="Enter Your Password"><br><br>
+        <button class="btn"><a href="./Discount.html">Submit</a></button>
+    </form>
+    <div style="margin-left: 75%; margin-top: 3%; color: rgb(34, 20, 235); background-color:white; text-align: center;"><b>Owner :Rukmoddin Sayyed</b></div> 
+</body>
+</html>
